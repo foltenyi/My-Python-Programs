@@ -216,7 +216,7 @@ def getParameters() -> bool:
     except OSError as e:
         sys.stderr.write(ln() + f' OSError {fn=}\n')
         # ???? What is e ????
-        sys.stderr.write(f'    {e=}\n')
+        sys.stderr.write(ln() + f'    {e=}\n')
         return False
     except:
         # https://docs.python.org/3/library/sys.html
