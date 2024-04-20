@@ -5,7 +5,6 @@
 
 import sys
 import os
-import re
 import itertools as ite
 import inspect as ins           # Location in the program, members of a class
 import matplotlib as mpl
