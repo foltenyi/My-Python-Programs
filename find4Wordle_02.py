@@ -397,6 +397,9 @@ def deleteImpossibleWords():
         print(f"{ln()}. Delete word, which does NOT correspond to the regular expression:")
         print(f'{r}')
         print(f'{ln()}. {lwsc}-{lws}={lwsc-lws} impossible words were deleted')
+    else:
+        print(f'{r}')
+        print(f'{ln()}. Did NOT reduce the possible words')
 
 
 def giveEliminatingWords(cls):  # is a set with column indices
